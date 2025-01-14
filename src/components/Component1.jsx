@@ -37,6 +37,7 @@ const Picture = styled.img`
   margin-left: -35px;
   width: 200px;
 `;
+
 const Image = styled.img`
   width: 500px;
   height: 600px;
@@ -69,6 +70,7 @@ const ImageViewer = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
 const Button = styled.button`
 font-size:19px;
 font-family:Arial
@@ -99,6 +101,7 @@ span{
 }
 
 `;
+
 const Content = styled.div`
   width: 550px;
   padding-top: 120px;
@@ -106,6 +109,7 @@ const Content = styled.div`
   flex-direction: column;
   color: black;
 `;
+
 const Title = styled.div`
 font-size:56px;
 font-family:Raleway, sans-serif;
@@ -121,16 +125,16 @@ const Sub = styled.div`
   font-family: Raleway, sans-serif;
   margin-left: 100px;
   margin-bottom: 30px;
-
   color: black;
 `;
+
 const Container = styled.div`
   width: 100%;
   min-height: 100vh;
   height: 100%;
   background-image: linear-gradient(#b6cba7, #fafafa);
-  padding-top: 95px;
 `;
+
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
